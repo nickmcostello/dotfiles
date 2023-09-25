@@ -13,3 +13,6 @@ vim.o.shiftwidth = 4
 vim.o.termguicolors = true
 
 vim.o.mouse = 'a'
+
+vim.opt.fillchars.ligatures = '/\\>'
+
