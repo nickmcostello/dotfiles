@@ -16,3 +16,4 @@ vim.o.mouse = 'a'
 
 vim.opt.fillchars.ligatures = '/\\>'
 
+vim.o.guicursor='i:block'
