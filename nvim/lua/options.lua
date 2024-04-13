@@ -1,9 +1,19 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-vim.o.clipboard = 'unnamedplus'
+vim.g.have_nerd_font = true
 
+vim.g.netrw_liststyle = 3
+
+vim.o.clipboard = 'unnamedplus'
 vim.o.relativenumber = true
+
+vim.o.breakindent = true
+
+vim.o.undofile = true
+
+vim.o.ignorecase = true
+vim.o.smartcase = true
 
 vim.o.signcolumn = 'yes'
 
@@ -16,4 +26,9 @@ vim.o.mouse = 'a'
 
 vim.opt.fillchars.ligatures = '/\\>'
 
-vim.o.guicursor='i:block'
+vim.o.splitright = true
+
+vim.o.inccommand = 'split'
+
+vim.o.scrolloff = 10
+
